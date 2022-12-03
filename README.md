@@ -18,11 +18,11 @@ cp .env.example .env
 ``
 <br>
 ``
-php artisan key:generate
+composer install
 ``
 <br>
 ``
-composer install
+php artisan key:generate
 ``
 <br>
 ``
@@ -40,10 +40,6 @@ php artisan sail:install
 
 ``
 sail up -d
-``
-<br>
-``
-sail artisan nova:install
 ``
 <br>
 ``

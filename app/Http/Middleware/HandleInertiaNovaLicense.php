@@ -7,7 +7,7 @@ use Laravel\Nova\Http\Middleware\HandleInertiaRequests;
 
 class HandleInertiaNovaLicense extends HandleInertiaRequests
 {
-    public function share(Request $request)
+    public function share(Request $request): array
     {
         return array_merge(parent::share($request), [
             'validLicense' => function () {

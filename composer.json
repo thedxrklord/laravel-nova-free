@@ -14,7 +14,7 @@
     },
     "repositories": [{
         "type": "composer",
-        "url": "https://laravel-nova.site"
+        "url": "https://laravelsatis.com"
     }],
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
